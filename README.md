@@ -4,7 +4,7 @@ This application allows the user to search for cocktail recipies using keywords 
 
 **Link to project:** coming soon
 
-![alt tag](coming soon)
+![gif of site]()
 
 ## How It's Made:
 
