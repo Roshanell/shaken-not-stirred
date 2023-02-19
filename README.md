@@ -2,9 +2,10 @@
 
 This application allows the user to search for cocktail recipies using keywords and displays information about the drink which includes the following: name, ingredients, instructions, and image.
 
-**Link to project:** coming soon
+**Link to project:** https://shaken-not-stirred.netlify.app/
 
-![gif of site]()
+![gif of site](![Recording 2023-02-19 at 15 47 35](https://user-images.githubusercontent.com/96213223/219977202-b581e8ca-1442-4c32-b786-9c36b28faff7.gif)
+)
 
 ## How It's Made:
 
