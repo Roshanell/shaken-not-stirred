@@ -8,3 +8,96 @@
 
 	background-color: white;
 }
+
+.card-img-top {
+	border-top-left-radius: 4px;
+	border-top-right-radius: 4px;
+	height: 200px;
+	object-fit: cover;
+	width: 100%;
+}
+
+.card-body {
+	padding: 10px;
+}
+
+.card-title {
+	font-size: 1.25rem;
+	font-weight: 600;
+	margin-bottom: 10px;
+}
+
+.card-text {
+	font-size: 1rem;
+	line-height: 1.5;
+	margin-bottom: 0;
+	font-weight: bold;
+}
+
+img {
+	display: block;
+	margin: 0 auto;
+	height: 200px;
+}
+
+h2,
+img,
+div,
+p {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+body {
+	width: 75vw;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin: auto;
+	background-image: url("https://i.imgur.com/wUAHwFQ.jpg");
+	background-size: contain;
+}
+
+p {
+	text-align: center;
+	font-weight: bold;
+}
+
+input {
+	width: 25%;
+}
+
+button {
+	min-width: 130px;
+	height: 40px;
+	color: #fff;
+	padding: 5px 10px;
+	font-weight: bold;
+	cursor: pointer;
+	transition: all 0.3s ease;
+	position: relative;
+	display: inline-block;
+	outline: none;
+	border: 1px solid #000;
+	color: #000;
+	background: transparent;
+	margin-top: 2%;
+	margin-bottom: 2%;
+	margin-left: 1%;
+}
+.button:hover:after {
+	top: 0;
+	left: 0;
+}
+button:after {
+	content: "";
+	width: 100%;
+	z-index: -1;
+	position: absolute;
+	height: 100%;
+	top: 5px;
+	left: 5px;
+	transition: 0.2s;
+	background-color: #ffe566;
+}
